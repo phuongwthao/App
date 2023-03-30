@@ -3,7 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Project%20JaVa/App/src/main/HangTruyen.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/EventPagination.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/Pagination.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/main/Story.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/main/Home.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/main/Start.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/PaginationItemRender.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/DefaultPaginationItemRender.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/style/PaginationItemRenderStyle1.java</file>
+            <file>file:/D:/Project%20JaVa/App/src/pagination/style/ButtonUI.java</file>
             <file>file:/D:/Project%20JaVa/App/src/main/LoLem.java</file>
         </group>
     </open-files>

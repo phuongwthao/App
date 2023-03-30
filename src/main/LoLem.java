@@ -34,6 +34,7 @@ public class LoLem extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        pagination2 = new pagination.Pagination();
         jLabel3 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
@@ -131,6 +132,7 @@ public class LoLem extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("page4", jPanel4);
+        jTabbedPane1.addTab("tab5", pagination2);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/str1/cat.png"))); // NOI18N
 
@@ -280,5 +282,6 @@ public class LoLem extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private pagination.Pagination pagination2;
     // End of variables declaration//GEN-END:variables
 }
