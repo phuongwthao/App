@@ -33,10 +33,14 @@ public class HangTruyen extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton10.setIcon(new javax.swing.ImageIcon("D:\\ảnh\\Saved Pictures\\appjava\\back-arrow.png")); // NOI18N
@@ -171,7 +175,7 @@ public class HangTruyen extends javax.swing.JFrame {
 
         jButton7.setBackground(new java.awt.Color(255, 204, 204));
         jButton7.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
-        jButton7.setText("Nàng Tiên Cá");
+        jButton7.setText("Sự Tích Dưa Hấu");
         jButton7.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
         jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -182,7 +186,7 @@ public class HangTruyen extends javax.swing.JFrame {
                 jButton7MouseExited(evt);
             }
         });
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 276, 230, 50));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 230, 50));
 
         jButton8.setBackground(new java.awt.Color(255, 204, 204));
         jButton8.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
@@ -198,6 +202,51 @@ public class HangTruyen extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 276, 230, 50));
+
+        jButton12.setBackground(new java.awt.Color(255, 204, 204));
+        jButton12.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
+        jButton12.setText("Bạch Tuyết");
+        jButton12.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        jButton12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jButton12MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jButton12MouseExited(evt);
+            }
+        });
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 390, 230, 50));
+
+        jButton13.setBackground(new java.awt.Color(255, 204, 204));
+        jButton13.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
+        jButton13.setText("Con Thằn Lằn Con");
+        jButton13.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        jButton13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jButton13MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jButton13MouseExited(evt);
+            }
+        });
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 390, 230, 50));
+
+        jButton11.setBackground(new java.awt.Color(255, 204, 204));
+        jButton11.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
+        jButton11.setText("Nàng Tiên Cá");
+        jButton11.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        jButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jButton11MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jButton11MouseExited(evt);
+            }
+        });
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 276, 230, 50));
 
         jButton9.setBackground(new java.awt.Color(255, 204, 204));
         jButton9.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
@@ -220,7 +269,7 @@ public class HangTruyen extends javax.swing.JFrame {
         getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(558, 276, 230, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bg2.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 420));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 820, 520));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -332,12 +381,36 @@ public class HangTruyen extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton10MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseEntered
-       jButton10.setBackground(Color.yellow);
+       jButton10.setBackground(new Color(255, 102, 102));
     }//GEN-LAST:event_jButton10MouseEntered
 
     private void jButton10MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseExited
         jButton10.setBackground(Color.white);
     }//GEN-LAST:event_jButton10MouseExited
+
+    private void jButton11MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11MouseEntered
+
+    private void jButton11MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11MouseExited
+
+    private void jButton12MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton12MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12MouseEntered
+
+    private void jButton12MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton12MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12MouseExited
+
+    private void jButton13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13MouseEntered
+
+    private void jButton13MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13MouseExited
 
     
     public static void main(String args[]) throws IOException {
@@ -352,6 +425,9 @@ public class HangTruyen extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
