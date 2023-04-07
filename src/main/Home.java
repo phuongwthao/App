@@ -17,6 +17,7 @@ public class Home extends javax.swing.JFrame {
        // Intro intro = new Intro();
        jDesktopPane1.removeAll();
        jDesktopPane1.add(introo).setVisible(true);
+        Name.setText(infoo.getName());
     }
 
     
